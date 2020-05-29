@@ -1,0 +1,10 @@
+<div class="jumbotron" style="background-color: rgba(91, 160, 117, 0.719); height:100vh;">
+    <h4 class="display-4">Atualize as informações abaixo</h4>
+    <hr class="my-4">
+    <form name='form2' action="/controllerUpdate" method='post'>
+        <input type="hidden" name='id' id='id' value="{{id}}" placeholder='Id:'>
+        <input type="text" name='name' id='name' placeholder='Name:'>
+        <input type="text" name='age' id='age' placeholder='Age:'>
+        <input class="btn btn-outline-success" type="submit" name='btnSubmit' id='btnSubmit' value='Atualizar'>
+    </form>
+</div>

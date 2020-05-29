@@ -1,0 +1,32 @@
+<div class="jumbotron" style="background-color: rgba(91, 160, 117, 0.719); height:100vh;">
+    <h1 class="display-4">Todos os registros</h1>
+    <hr class="my-4">
+    <table style="margin-left:20px;">
+        <tr>
+            <td>ACTION/</td>
+            <td>USER ID/</td>
+            <td>NAME/</td>
+            <td> AGE</td>
+        </tr>
+        {{#data}}
+            <tr>
+                <td>
+                    <a href="update/{{id}}" class="update">
+                        <img src="../img/edit.png" style="width=18px; height:18px;" alt="">
+                    </a>
+
+                    <a href="deletar/{{id}}" class="deletar">
+                        <img src="../img/trash.png" style="width=20px; height:20px;" alt="">
+                    </a>
+                </td>
+                <td>{{id}}</td>
+                <td>{{name}}</td>
+                <td>{{age}}</td>
+            </tr>
+        {{/data}}
+    </table></br>
+    <a class="btn btn-success" style="margin-left:16px;" href="/" role="button">VOLTAR</a>
+
+</div>
+
+ 
