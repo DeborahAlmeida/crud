@@ -8,3 +8,6 @@ This is a CRUD using Node.js and Bootstrap
 5. Still in the folder in command prompt write "node app.js" and open it in the browser: "localhost:3000/"
 
 
+
+To know more about me, please acess https://loving-easley-784a23.netlify.app/
+Thank you:D
